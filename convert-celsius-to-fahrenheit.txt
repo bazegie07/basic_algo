@@ -1,0 +1,38 @@
+Basic Algorithm Scripting: Convert Celsius to Fahrenheit
+The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
+
+You are given a variable celsius representing a temperature in Celsius. Use the variable fahrenheit already defined and assign it the Fahrenheit temperature equivalent to the given Celsius temperature. Use the algorithm mentioned above to help convert the Celsius temperature to Fahrenheit.
+
+
+function convertToF(celsius) {
+  let fahrenheit;
+  fahrenheit = (celsius * (9/5)) + 32
+  return fahrenheit;
+}
+
+converttof(30);
+
+
+		Reverse a string
+
+split() ->	 TURN A STRING INTO AN ARRAY AND TAKES IN A PARAMETER AS A SEPARATOR.
+		WE WANT EACH CHARACTER TO BE ITS OWN ARRAY VALUE WE GOING TO SET THE PARAMETER TO ' '.
+
+	function reverseString(str) {
+	  const strArray = str.split('');
+	}
+
+reverse() ->	  WE CAN USE PROTOTYPE METHOD reverse() WHICH WILL JUST REVERSE THE ARRAY
+		
+		AND LETS NOT FORGET TO PUT console.log() at the bottom of the function.
+
+	function reverseString(str) {
+  		const strArray = str.split('');
+  		strArray.reverse();
+ 		 console.log(strArray);
+		}
+
+
+	reverseString('Hello Medium');
+	// Output:
+	[ 'm', 'u', 'i', 'd', 'e', 'M', ' ', 'o', 'l', 'l', 'e', 'H' ]
