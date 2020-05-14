@@ -3,4 +3,13 @@ function reverseString(str){
     var reverseStrArray = strArr.reverse(); // reverse will reverse the array 
     var reverseString = reverseStrArray.join(""); // this wil covert the array to a string format
     return reverseString;
+
+
+
+    // or you can do it like this shortcut
+    return str.split("").reverse().join("");
 }
+
+
+
+
