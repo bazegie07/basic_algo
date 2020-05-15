@@ -8,7 +8,7 @@ const palindrome = str => {
     str = str.toLowerCase()
     // reverse input string and return the ressult of the 
     // comparison
-    return str === str.split("").resever().join('')
+    return str === str.split("").resever().join('');
 }
 
 
