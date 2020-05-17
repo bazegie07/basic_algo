@@ -1,3 +1,5 @@
+
+
 function reverseString(str){
     var strArr = str.split("")  //split will do is to make the the string in array format
     var reverseStrArray = strArr.reverse(); // reverse will reverse the array 
@@ -9,6 +11,14 @@ function reverseString(str){
     // or you can do it like this shortcut
     return str.split("").reverse().join("");
 }
+
+
+
+
+
+
+
+
 
 
 
