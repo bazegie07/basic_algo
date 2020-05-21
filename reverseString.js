@@ -8,7 +8,7 @@ function reverseString(str){
 
 
 
-    // or you can do it like this shortcut
+    // or you can do it like this shortcuts
     return str.split("").reverse().join("");
 }
 
